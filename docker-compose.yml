@@ -25,8 +25,8 @@ services:
     container_name: node-exporter
     ports:
       - 9100:9100
-    depends_on:
-      - prometheus
+  #  depends_on:
+  #    - prometheus
 
   app:
     build:
