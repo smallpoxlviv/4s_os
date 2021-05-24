@@ -3,6 +3,7 @@
 1. first of all you need to install "docker" and "docker-compose" (1.29.1)
 2. to run the app just create script "start.sh" as in instruction and run "sh start.sh"
 3. script "logs.sh" is watching for errors in java application
+4. in grafana datasouce settings input "http://prometheus:9090/" 
 
 ## Creating scripts
 ### start.sh
